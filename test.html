@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="./jquery-3.0.0.min.js"></script><!-- 安装JQ -->
+  <script src="style.js" type="text/javascript" charset="utf-8" async defer></script>
+  <style type="text/css">
+    *{
+      margin: 0px;
+      padding: 0px;
+     }
+      #beijing{
+        margin-left: 0.5%;
+        width: 99%;
+        height: 600px;
+        background-image: url(2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+      }
+      #back{
+        width: 100%;
+        height: inherit;
+      }
+  </style>
+</head>
+<body>
+  <div id="beijing" onmousemove="getMousePos(event)" style="top:0px;left:0px;margin-left:0px;margin-top:0px;">
+    <div id="back">
+      <div>
+         <img src="1.jpg" alt="" id="show" style="width:200px;height:200px;margin-left:400px;margin-top:200px;">
+      </div>
+    </div>
+    <!-- <p id="word"></p> -->
+  </div>
+</body>
+</html>
